@@ -1,4 +1,4 @@
-# angularjs_guia
+# angular_guia
 
 Guía para el estudio de AngularJS
 
