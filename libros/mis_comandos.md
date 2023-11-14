@@ -4,3 +4,5 @@ npm install -g @angular/cli
 ng v
 #crear una aplicación
 ng new "nombre"
+#ejecutar la app
+ng serve
