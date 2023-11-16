@@ -5,7 +5,7 @@ ng v
 #crear una aplicación
 ng new "nombre"
 #ejecutar la app
-ng serve
+ng serve | 
 #crear un componente
 ng g c "nombre"
 # Para utilizar el comando ng en la terminal de vscode
