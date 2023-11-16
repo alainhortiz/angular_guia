@@ -9,3 +9,5 @@ Guía para el estudio de AngularJS
 -Primer curso teórico-práctico https://www.youtube.com/playlist?list=PL_9MDdjVuFjFBed4Eor5qj1T0LLahl4z0
 
 -Los comandos utlizados se encuentran el md mis_comandos
+
+-Guía de referencia https://angular.dev/tutorials/learn-angular
