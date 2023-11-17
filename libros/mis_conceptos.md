@@ -14,7 +14,9 @@ Actualización de la clase de componente
 
 En Angular, la lógica y el comportamiento del componente se definen en la clase TypeScript del componente.
 
-La interpolación se refiere a la incrustación de expresiones en texto marcado. De forma predeterminada, la interpolación utiliza las llaves dobles y como delimitadores.{{}}
+La interpolación 
+
+Se refiere a la incrustación de expresiones en texto marcado. De forma predeterminada, la interpolación utiliza las llaves dobles y como delimitadores.{{}}
 
 en el fichero ts
 
@@ -30,10 +32,20 @@ export class AppComponent {
   }
 
  en el html
- 
+
  <h3>Current customer: {{ currentCustomer }}</h3>
  <p>{{ title }}</p>
  <div><img alt="item" src="{{ itemImageUrl }}"></div>
+
+ Composición de componentes.
+
+ Puedes usar todo el marcado HTML y todos los componentes que necesites para hacer realidad la idea de tu aplicación. Incluso puede tener varias copias de su componente en la misma página.
+
+ Flujo de control en componentes - @if
+
+ 
+
+
 
 
 
