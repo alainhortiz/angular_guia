@@ -1,22 +1,22 @@
-# instalar angular
+# Instalar angular
 npm install -g @angular/cli
 
-# revisar versión
+# Revisar versión
 ng v
 
-# crear una aplicación
+# Crear una aplicación
 ng new "nombre"
 
-# ejecutar la app
+# Ejecutar la app
 ng serve | npm start
 
-# crear un componente
-ng g component "path/nombre" | "nombre"
-
-# detener el servidor 
-# instalar 
+# Detener el servidor 
+# Instalar 
 npm install --global kill-port
 kill-port --port 4200
+
+# Crear un componente
+ng g component "path/nombre" | "nombre"
 
 # Para utilizar el comando ng en la terminal de vscode
 En la consola de windows o en visual studio code, como administrador, lista las politicas con: get-ExecutionPolicy -list Después le asignas al usuario actual la politica: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser

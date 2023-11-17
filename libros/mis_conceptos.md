@@ -1,4 +1,4 @@
-Componentes en Angular
+# Componentes en Angular
 
 Los componentes son los bloques de construcción fundamentales para cualquier aplicación Angular. Cada componente tiene tres partes:
 
@@ -10,11 +10,11 @@ Los componentes son los bloques de construcción fundamentales para cualquier ap
 
 En Angular, puedes usar todos los CSS y HTML compatibles con el navegador que están disponibles. Si lo deseas, puedes almacenar la plantilla y los estilos en archivos separados.
 
-Actualización de la clase de componente
+# Actualización de la clase de componente
 
 En Angular, la lógica y el comportamiento del componente se definen en la clase TypeScript del componente.
 
-La interpolación 
+# La interpolación 
 
 Se refiere a la incrustación de expresiones en texto marcado. De forma predeterminada, la interpolación utiliza las llaves dobles y como delimitadores.{{}}
 
@@ -37,13 +37,17 @@ export class AppComponent {
  <p>{{ title }}</p>
  <div><img alt="item" src="{{ itemImageUrl }}"></div>
 
- Composición de componentes.
+ # Composición de componentes.
 
  Puedes usar todo el marcado HTML y todos los componentes que necesites para hacer realidad la idea de tu aplicación. Incluso puede tener varias copias de su componente en la misma página.
 
- Flujo de control en componentes - @if
+ # Flujo de control en componentes - @if - @else
 
- 
+ Para expresar visualizaciones condicionales en plantillas, Angular utiliza la sintaxis de plantilla.@if
+
+
+
+
 
 
 
