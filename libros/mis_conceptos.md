@@ -41,9 +41,16 @@ export class AppComponent {
 
  Puedes usar todo el marcado HTML y todos los componentes que necesites para hacer realidad la idea de tu aplicación. Incluso puede tener varias copias de su componente en la misma página.
 
- # Flujo de control en componentes - @if - @else
+ # Flujo de control en componentes - @if - @else -@for
 
  Para expresar visualizaciones condicionales en plantillas, Angular utiliza la sintaxis de plantilla.@if
+
+ # Enlace de propiedades en Angular
+ El enlace de propiedades en Angular le permite establecer valores para las propiedades de los elementos HTML, los componentes de Angular y más.
+
+ Use el enlace de propiedades para establecer dinámicamente los valores de las propiedades y los atributos. Puede hacer cosas como alternar las funciones de los botones, establecer rutas de imagen mediante programación y compartir valores entre componentes.
+
+ El enlace de propiedades es una de las muchas características poderosas de Angular.
 
 
 

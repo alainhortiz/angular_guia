@@ -9,6 +9,8 @@ ng new "nombre"
 
 # Ejecutar la app
 ng serve | npm start
+ng s --port 4300
+ng s -o
 
 # Detener el servidor 
 # Instalar 
