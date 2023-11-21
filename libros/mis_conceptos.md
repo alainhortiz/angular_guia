@@ -59,6 +59,13 @@ export class AppComponent {
 
 En Angular se enlaza a eventos con la sintaxis de paréntesis. En un elemento determinado, envuelva el evento al que desea enlazar con paréntesis y establezca un controlador de eventos. Considere este ejemplo:()button
 
+# Comunicación de componentes con @Input
+A veces, el desarrollo de aplicaciones requiere que envíe datos a un componente. Estos datos se pueden utilizar para personalizar un componente o quizás enviar información de un componente principal a un componente secundario.
+
+Angular utiliza un concepto llamado Input. Esto es similar a lo que ocurre en otros marcos. Para crear un archivo propsInput , use la propiedad @Input decorador.
+
+
+
 
 
 
