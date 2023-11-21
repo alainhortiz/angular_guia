@@ -50,9 +50,14 @@ export class AppComponent {
 
  Use el enlace de propiedades para establecer dinámicamente los valores de las propiedades y los atributos. Puede hacer cosas como alternar las funciones de los botones, establecer rutas de imagen mediante programación y compartir valores entre componentes.
 
+ Utilice el enlace de propiedades para hacer cosas como alternar características de botón, establecer rutas de acceso mediante programación y compartir valores entre componentes.
+
  El enlace de propiedades es una de las muchas características poderosas de Angular.
 
+ # Control de eventos
+ El control de eventos habilita características interactivas en las aplicaciones web. Le brinda la capacidad como desarrollador de responder a las acciones del usuario, como presionar botones, enviar formularios y más.
 
+En Angular se enlaza a eventos con la sintaxis de paréntesis. En un elemento determinado, envuelva el evento al que desea enlazar con paréntesis y establezca un controlador de eventos. Considere este ejemplo:()button
 
 
 
