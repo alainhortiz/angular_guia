@@ -64,6 +64,11 @@ A veces, el desarrollo de aplicaciones requiere que envíe datos a un componente
 
 Angular utiliza un concepto llamado Input. Esto es similar a lo que ocurre en otros marcos. Para crear un archivo propsInput , use la propiedad @Input decorador.
 
+# Comunicación de componentes con @Output
+Al trabajar con componentes, es posible que sea necesario notificar a otros componentes que algo ha sucedido. Tal vez se ha hecho clic en un botón, se ha agregado/eliminado un elemento de una lista o se ha producido alguna otra actualización importante. En este escenario, los componentes deben comunicarse con los componentes primarios.
+
+Angular utiliza el método @Output para habilitar este tipo de comportamiento.
+
 
 
 
