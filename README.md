@@ -1,8 +1,8 @@
 # angular_guia
 
-Guía para el estudio de AngularJS
+Guía para el estudio de Angular
 
--Canal de interes con temas de AngularJS https://www.youtube.com/@DominiCode/featured
+-Canal de interes con temas de Angular https://www.youtube.com/@DominiCode/featured
 
 -La documentación base se encuentra en libro "El gran libro de Angular"
 

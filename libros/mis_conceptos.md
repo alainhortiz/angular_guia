@@ -14,11 +14,11 @@ Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo pa
 
 - Componentes
 
-- Rutas
+- Servicios
 
 - Directivas
 
-- Servicios
+- Rutas
 
 - Módulos
 
@@ -33,6 +33,12 @@ Los componentes son los bloques de construcción fundamentales para cualquier ap
 - Estilos CSS
 
 En Angular, puedes usar todos los CSS y HTML compatibles con el navegador que están disponibles. Si lo deseas, puedes almacenar la plantilla y los estilos en archivos separados.
+
+# Servicios
+
+Lugares centralizados de información. Podemos tener un componente que tenga un botón html que al darle clic llame a un servicio que traiga información de una BD.
+
+# Directivas
 
 # Actualización de la clase de componente
 
