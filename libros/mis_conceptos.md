@@ -1,3 +1,15 @@
+# Angular
+
+Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo para crear aplicaciones eficientes y sofisticadas de una sola página.
+
+- Es un framework. 
+
+- Marco de trabajo estandarizado.
+
+- Viene con todo lo que necesitas para trabajar.
+
+-Google es quien le da mantenimiento hoy en día.
+
 # Componentes en Angular
 
 Los componentes son los bloques de construcción fundamentales para cualquier aplicación Angular. Cada componente tiene tres partes:

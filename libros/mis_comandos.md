@@ -20,8 +20,11 @@ kill-port --port 4200
 # Crear un componente
 ng g component "path/nombre" | "nombre"
 
-# crear una interface
+# Crear una interface
 ng g interface "path/nombre" | "nombre"
+
+# Declarar variable de varios tipos
+let hp: string|number = 95;
 
 # Para utilizar el comando ng en la terminal de vscode
 En la consola de windows o en visual studio code, como administrador, lista las politicas con: get-ExecutionPolicy -list Después le asignas al usuario actual la politica: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
