@@ -40,6 +40,22 @@ Lugares centralizados de información. Podemos tener un componente que tenga un 
 
 # Directivas
 
+- Directivas de componentes. 
+
+- Directivas Estructurales. Modifican el DOM o el HTML.
+
+- Directivas de Atributos. Cambian la apariencia o el comportamiento de un elemento, otro componente o bien una directiva.
+
+# Rutas
+
+- Muestran diferentes componentes basados en el URL del navegador web.
+
+# Módulos
+
+- Permiten agrupar todos estos bloques e inclusive otros módulos. Se puede utilizar módulos de terceros en nuestra aplicación.  Ejemplos de módulos que conforman una aplicación:
+  
+- Módulo de Autenticación. Módulo de Clientes. Módulo de Productos. Módulo de Proveedores. 
+
 # Actualización de la clase de componente
 
 En Angular, la lógica y el comportamiento del componente se definen en la clase TypeScript del componente.
