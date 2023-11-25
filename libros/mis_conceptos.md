@@ -10,6 +10,18 @@ Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo pa
 
 -Google es quien le da mantenimiento hoy en día.
 
+# Bloques fundamentales
+
+- Componentes
+
+- Rutas
+
+- Directivas
+
+- Servicios
+
+- Módulos
+
 # Componentes en Angular
 
 Los componentes son los bloques de construcción fundamentales para cualquier aplicación Angular. Cada componente tiene tres partes:
