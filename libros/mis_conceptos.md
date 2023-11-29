@@ -46,7 +46,7 @@ Las directivas son como atributos que pueden cambiar la apariencia o el comporta
 
 - Directivas Estructurales. Modifican el DOM o el HTML. Ej: ngIf, ngFor
 
-- Directivas de Atributos. Cambian la apariencia o el comportamiento de un elemento, otro componente o bien una directiva.
+- Directivas de Atributos. Cambian la apariencia o el comportamiento de un elemento, otro componente o bien una directiva. Ej:  ngClass, ngStyle.
 
 - Directivas Customs. 
 
@@ -104,15 +104,20 @@ export class AppComponent {
 
  El enlace de propiedades es una de las muchas características poderosas de Angular.
 
- # Control de eventos
+ # Enlace de eventos
  El control de eventos habilita características interactivas en las aplicaciones web. Le brinda la capacidad como desarrollador de responder a las acciones del usuario, como presionar botones, enviar formularios y más.
 
 En Angular se enlaza a eventos con la sintaxis de paréntesis. En un elemento determinado, envuelva el evento al que desea enlazar con paréntesis y establezca un controlador de eventos. Considere este ejemplo:()button
+
+# Decorador
+Un decorador es un tipo especial de declaración que se puede adjuntar a una clase, método, descriptor de acceso, propiedad o prámetro.
 
 # Comunicación de componentes con @Input
 A veces, el desarrollo de aplicaciones requiere que envíe datos a un componente. Estos datos se pueden utilizar para personalizar un componente o quizás enviar información de un componente principal a un componente secundario.
 
 Angular utiliza un concepto llamado Input. Esto es similar a lo que ocurre en otros marcos. Para crear un archivo propsInput , use la propiedad @Input decorador.
+
+El decorador @Input es un componente (o directiva) hijo significa que la propiedad puede recibir su valor de su componente padre.
 
 # Comunicación de componentes con @Output
 Al trabajar con componentes, es posible que sea necesario notificar a otros componentes que algo ha sucedido. Tal vez se ha hecho clic en un botón, se ha agregado/eliminado un elemento de una lista o se ha producido alguna otra actualización importante. En este escenario, los componentes deben comunicarse con los componentes primarios.
