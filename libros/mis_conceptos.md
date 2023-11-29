@@ -24,7 +24,7 @@ Angular es un marco de diseño de aplicaciones y una plataforma de desarrollo pa
 
 # Componentes en Angular
 
-Los componentes son los bloques de construcción fundamentales para cualquier aplicación Angular. Cada componente tiene tres partes:
+Los componentes son los bloques de construcción fundamentales para cualquier aplicación Angular. Es el mas peuqeño y esta conformado por tres partes:
 
 - Clase TypeScript
 
@@ -40,11 +40,15 @@ Lugares centralizados de información. Podemos tener un componente que tenga un 
 
 # Directivas
 
+Las directivas son como atributos que pueden cambiar la apariencia o el comportamiento del DOM element.
+
 - Directivas de componentes. 
 
-- Directivas Estructurales. Modifican el DOM o el HTML.
+- Directivas Estructurales. Modifican el DOM o el HTML. Ej: ngIf, ngFor
 
 - Directivas de Atributos. Cambian la apariencia o el comportamiento de un elemento, otro componente o bien una directiva.
+
+- Directivas Customs. 
 
 # Rutas
 
@@ -114,6 +118,9 @@ Angular utiliza un concepto llamado Input. Esto es similar a lo que ocurre en ot
 Al trabajar con componentes, es posible que sea necesario notificar a otros componentes que algo ha sucedido. Tal vez se ha hecho clic en un botón, se ha agregado/eliminado un elemento de una lista o se ha producido alguna otra actualización importante. En este escenario, los componentes deben comunicarse con los componentes primarios.
 
 Angular utiliza el método @Output para habilitar este tipo de comportamiento.
+
+# Ciclo de vida de un componente
+Un componente tiene un ciclo de vida que comienza cuando Angular crea una instancia de la clase de componente y representa la vista del componente junto con sus vistas secundarias.
 
 
 
