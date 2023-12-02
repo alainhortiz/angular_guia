@@ -104,7 +104,7 @@ export class AppComponent {
 
  El enlace de propiedades es una de las muchas características poderosas de Angular.
 
- # Enlace de eventos
+ # Enlace de eventos (Event binding)
  El control de eventos habilita características interactivas en las aplicaciones web. Le brinda la capacidad como desarrollador de responder a las acciones del usuario, como presionar botones, enviar formularios y más.
 
 En Angular se enlaza a eventos con la sintaxis de paréntesis. En un elemento determinado, envuelva el evento al que desea enlazar con paréntesis y establezca un controlador de eventos. Considere este ejemplo:()button
@@ -126,10 +126,11 @@ Angular utiliza el método @Output para habilitar este tipo de comportamiento.
 
 El decorador @Output() en un componente (o directiva) hijo permite que los datos fluyan del hijo al padre.
 
-# Ciclo de vida de un componente
-Un componente tiene un ciclo de vida que comienza cuando Angular crea una instancia de la clase de componente y representa la vista del componente junto con sus vistas secundarias.
+# Ciclo de vida de un  componente
+Un componente tiene un ciclo de vida que comienza cuando Angular crea una instancia de la clase de componente y representa la vista del componente junto con sus vistas secundarias. 
 
-
+# Mecanismo de detección de cambio (Change Detection)
+Es el mecanismo o estrategia de detección de cambios que utiliza Angular para saber cuando debe actualizar un componente o toda la vista en caso de que la data haya acambiado.
 
 
 
