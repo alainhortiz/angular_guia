@@ -124,6 +124,8 @@ Al trabajar con componentes, es posible que sea necesario notificar a otros comp
 
 Angular utiliza el método @Output para habilitar este tipo de comportamiento.
 
+El decorador @Output() en un componente (o directiva) hijo permite que los datos fluyan del hijo al padre.
+
 # Ciclo de vida de un componente
 Un componente tiene un ciclo de vida que comienza cuando Angular crea una instancia de la clase de componente y representa la vista del componente junto con sus vistas secundarias.
 
