@@ -132,6 +132,16 @@ Un componente tiene un ciclo de vida que comienza cuando Angular crea una instan
 # Mecanismo de detección de cambio (Change Detection)
 Es el mecanismo o estrategia de detección de cambios que utiliza Angular para saber cuando debe actualizar un componente o toda la vista en caso de que la data haya acambiado.
 
+Las estrategias son dos:
+
+- OnPush: establece la estrategia en CheckOnce (bajo demanda).
+
+- Default: establece la estrategia en CheckAlways.
+
+# Pipe
+El cometido principal de los pipes en transformar data. Es decir reciben un dato y lo transforman. De forma predeterminada los pipes se definen como puros de modo que se ejecutan cuando detecta un cambio puro en el valor de entrada. Los que no son puros cada vez que se ejecuta el ciclo de cambios se ejecuta haya cambiado la data o no. Existen pipe definidos por Angular y pipes personalizados que podemos crear.
+
+
 
 
 
