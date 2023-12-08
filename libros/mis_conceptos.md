@@ -147,13 +147,19 @@ Confíe en las directivas de la plantilla para crear y manipular el modelo de ob
 # Formularios reactivos
 Proporcione acceso directo y explícito al modelo de objetos del formulario subyacente. En comparación con los formularios basados en plantillas, son más robustos: son más escalables, reutilizables y comprobables. Si los formularios son una parte clave de la aplicación, o si ya está usando patrones reactivos para compilar la aplicación, use formularios reactivos.
 
-En la tabla siguiente se resumen las principales diferencias entre los formularios reactivos y los basados en plantillas.
+Principales diferencias entre los formularios reactivos y los basados en plantillas.
 
-                                                          Reactivo	                              Basado en plantillas
-Configuración del modelo de formulario	- Explícito, creado en la clase de componente	      - Implícito, creado por directivas
-Modelo de datos	                        - Estructurado e inmutable	                        - Desestructurado y mutable
-Flujo de datos	                        - Síncrono	                                        - Asíncrono
-Validación de formularios	              - Funciones	                                        - Directivas
+# Reactivo	                              
+- Configuración del modelo de formulario (Explícito, creado en la clase de componente)	      
+- Modelo de datos	(Estructurado e inmutable)	                        
+- Flujo de datos	(Síncrono)	                                        
+- Validación de formularios	(Funciones)	                                        
+
+# Basado en plantillas
+- Configuración del modelo de formulario (Implícito, creado por directivas)
+- Modelo de datos	(Desestructurado y mutable)
+- Flujo de datos	(Asíncrono)
+- Validación de formularios	(Directivas)
 
 
 
