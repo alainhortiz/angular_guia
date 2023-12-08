@@ -141,8 +141,19 @@ Las estrategias son dos:
 # Pipe
 El cometido principal de los pipes en transformar data. Es decir reciben un dato y lo transforman. De forma predeterminada los pipes se definen como puros de modo que se ejecutan cuando detecta un cambio puro en el valor de entrada. Los que no son puros cada vez que se ejecuta el ciclo de cambios se ejecuta haya cambiado la data o no. Existen pipe definidos por Angular y pipes personalizados que podemos crear.
 
+# Formularios template-drive form (basados en plantillas)
+Confíe en las directivas de la plantilla para crear y manipular el modelo de objetos subyacente. Son útiles para agregar un formulario simple a una aplicación, como un formulario de registro de lista de correo electrónico. Son fáciles de agregar a una aplicación, pero no se escalan tan bien como los formularios reactivos. Si tiene requisitos de formulario muy básicos y lógica que se pueden administrar únicamente en la plantilla, los formularios basados en plantillas podrían ser una buena opción. Son ideales para crear formularios sencillos
 
+# Formularios reactivos
+Proporcione acceso directo y explícito al modelo de objetos del formulario subyacente. En comparación con los formularios basados en plantillas, son más robustos: son más escalables, reutilizables y comprobables. Si los formularios son una parte clave de la aplicación, o si ya está usando patrones reactivos para compilar la aplicación, use formularios reactivos.
 
+En la tabla siguiente se resumen las principales diferencias entre los formularios reactivos y los basados en plantillas.
+
+                                                          Reactivo	                              Basado en plantillas
+Configuración del modelo de formulario	- Explícito, creado en la clase de componente	      - Implícito, creado por directivas
+Modelo de datos	                        - Estructurado e inmutable	                        - Desestructurado y mutable
+Flujo de datos	                        - Síncrono	                                        - Asíncrono
+Validación de formularios	              - Funciones	                                        - Directivas
 
 
 
